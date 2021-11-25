@@ -3,10 +3,7 @@ body{
     padding: 0;
     background-color: rgb(253, 251, 251);
     font-family: 'Poppins', sans-serif;
-
-
 }
-
 #cabecalho{
     position: fixed;
     top: 0;
@@ -41,21 +38,28 @@ nav a{
     font-weight: bold;
     color: white;
 }
-
-
-
+#minha_foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
 main{
     padding: 100px 20px 20px 20px;
     background-color: rgb(194, 192, 192);
+    text-align: center;
 }
-
 main img{
     width: 200px;
     margin: 20px;
 }
-
+.coment{
+    color: #2FC18C;
+    font-weight: bold;
+}
 table{
     border: 3px solid black;
+    margin: 0 auto;
 }
 th{
     margin-left: 0;
@@ -66,8 +70,8 @@ th{
 .th-dir{
     border-left: 3px solid black;;
 }
-.esquerda{
-    /* border-right: 2px solid black; */
+td{
+    text-align: justify;
 }
 .direita{
     border-left: 3px solid black;
@@ -75,21 +79,19 @@ th{
 main ol, main ul{
     margin: 10px;
     padding: 0;
-    
 }
-
 .container{
     display: flex;
-
 }
 .container p{
     text-align: justify;
-
+}
+.container h2{
+    text-align: justify;
 }
 article, .lado-direito{
     margin: 20px;
 }
-
 footer{
     background-color: rgb(202, 202, 202);
     padding: 15px;
